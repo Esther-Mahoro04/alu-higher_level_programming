@@ -6,4 +6,3 @@ fs.readFile(process.argv[2], function (err, data) {
   const content = data;
   console.log(content.toString());
 });
-
